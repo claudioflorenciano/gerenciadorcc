@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtLogTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/inputConta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:height="45dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/loginInputAccount"
+            android:inputType="number"
+            android:maxLength="5" />
+
+        <EditText
+            android:id="@+id/inputSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:height="45dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/loginInputPass"
+            android:inputType="numberPassword"
+            android:maxLength="4" />
+
+        <Button
+            android:id="@+id/btnLogar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#0AC9A6"
+            android:onClick="btnLogarClick"
+            android:text="@string/btnLogin" />
+    </LinearLayout>
+
+</LinearLayout>

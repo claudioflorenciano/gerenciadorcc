@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityCorrentista">
+
+    <TextView
+        android:id="@+id/txtContaTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/accountHolder"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtInfoConta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnVerSaldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#0AC9A6"
+            android:gravity="center"
+            android:onClick="btnVerSaldoClick"
+            android:text="@string/btnBalance" />
+
+        <Button
+            android:id="@+id/btnExtrato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#0AC9A6"
+            android:gravity="center"
+            android:onClick="btnExtratoClick"
+            android:text="@string/btnStatement" />
+
+        <Button
+            android:id="@+id/btnSaque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#0AC9A6"
+            android:gravity="center"
+            android:onClick="btnSaqueClick"
+            android:text="@string/btnWithdraw" />
+
+        <Button
+            android:id="@+id/btnDeposito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#0AC9A6"
+            android:gravity="center"
+            android:onClick="btnDepositoClick"
+            android:text="@string/btnDeposit" />
+
+        <Button
+            android:id="@+id/btnTransferencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#0AC9A6"
+            android:gravity="center"
+            android:onClick="btnTransferenciaClick"
+            android:text="@string/btnTransference" />
+
+        <Button
+            android:id="@+id/btnVisita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#0AC9A6"
+            android:enabled="false"
+            android:gravity="center"
+            android:onClick="setBtnVisitaClick"
+            android:text="@string/btnManagerVisit" />
+
+        <Button
+            android:id="@+id/btnSair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#DB2A16"
+            android:gravity="center"
+            android:onClick="btnTrocarClick"
+            android:text="@string/btnChangeUser" />
+    </LinearLayout>
+
+</LinearLayout>

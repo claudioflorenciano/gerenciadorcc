@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityNovoUser">
+
+  <TextView
+      android:id="@+id/txtCadTitulo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:layout_marginBottom="50dp"
+      android:ems="10"
+      android:gravity="center"
+      android:text="@string/register"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp">
+
+    <EditText
+        android:id="@+id/inputNovoConta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="15dp"
+        android:height="45dp"
+        android:ems="10"
+        android:hint="@string/registerInputAccount"
+        android:inputType="number"
+        android:maxLength="5" />
+
+    <EditText
+        android:id="@+id/inputNovoSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:height="45dp"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint="@string/registerInputPass"
+        android:inputType="numberPassword"
+        android:maxLength="4" />
+
+    <Switch
+        android:id="@+id/swtVip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="35dp"
+        android:height="45dp"
+        android:gravity="center"
+        android:text="@string/registerSwitchStatus" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0AC9A6"
+        android:onClick="btnCadastrarClick"
+        android:text="@string/btnRegister" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DB2A16"
+        android:onClick="btnVoltarClick"
+        android:text="@string/btnClose" />
+
+  </LinearLayout>
+
+</LinearLayout>

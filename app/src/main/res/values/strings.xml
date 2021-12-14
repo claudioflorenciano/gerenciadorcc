@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Gerenciador de Conta Corrente</string>
+    <string name="login">Login</string>
+    <string name="loginInputAccount">Digite sua conta</string>
+    <string name="loginInputPass">Digite sua senha</string>
+    <string name="btnLogin">Logar</string>
+    <string name="register">Cadastro</string>
+    <string name="registerInputAccount">Digite a conta</string>
+    <string name="registerInputPass">Senha</string>
+    <string name="registerSwitchStatus">Status Vip</string>
+    <string name="btnRegister">Cadastrar</string>
+    <string name="btnClose">Voltar</string>
+    <string name="accountHolder">Correntista</string>
+    <string name="btnBalance">Ver Saldo</string>
+    <string name="btnStatement">Extrato</string>
+    <string name="btnWithdraw">Saque</string>
+    <string name="btnDeposit">Depósito</string>
+    <string name="btnTransference">Transferencia</string>
+    <string name="btnManagerVisit">Solicitar Visita do Gerente</string>
+    <string name="btnChangeUser">Trocar usuário</string>
+</resources>
